@@ -1,5 +1,5 @@
 <h1 align="center">
-  <b>Cut-off-Power-BI-Report</b>
+  <b>Audit Analytics Power BI</b>
 </h1>
 
 <p align="center">
@@ -42,6 +42,7 @@ By including the interactive elements, I have made it flexible to be catered to 
 
 
 # Dashboard Features
+
 1. Dynamic Cut-Off Testing
 Users can:
 adjust cut-off window (X days before/after year-end),
@@ -57,6 +58,7 @@ Transaction drill-through page
 
 [sreenshot]
 
+
 2. Accounts Payable Aging Analysis
 
 The dashboard includes:
@@ -68,6 +70,7 @@ Aging Buckets:
 0–30 days; 31–60 days; 61–90 days; 91–120 days; 120+ days
 
 [sreenshot]
+
 
 3. Unusual Items Review
 
@@ -83,7 +86,20 @@ Below are the step-by-step walkthrough of how I built this Power BI report for A
 </samp></p>
 
 
+# Other Dashboard Screenshots
 
+
+# Files Included
+| File                         | Description              |
+| ---------------------------- | ------------------------ |
+| `.pbix`                      | Power BI dashboard       |
+| `AP_modified.xlsx`           | Accounts Payable dataset |
+| `Transactions_modified.xlsx` | Transaction dataset      |
+| `README.md`                  | Project documentation    |
+
+
+P.S.
+Example data presented in the project is fictional for illustration
 
 Step 1:
 Transform Data
