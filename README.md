@@ -1,64 +1,65 @@
 <h1 align="center">
-  <b>Audit Analytics Solution for AP Review Procedures</b>
+  <b>Audit Analytics Dashboard for Accounts Payable </b>
 </h1>
 
 <p align="center">
   <img src="https://custom-icon-badges.demolab.com/badge/Power%20BI-F1C912?logo=power-bi&logoColor=fff">
+  &nbsp; DAX • Power Query • Data Modelling
 </p>
-
-
-# Audit Analytics Dashboard – Power BI
 
 Interactive audit analytics solution built in Power BI to automate Accounts Payable cut-off testing, aging analysis, unusual item review, and high-value transaction identification.
 
+
 ## Key Features
-- Dynamic cut-off window analysis
+- Dynamic cut-off window
 - Adjustable materiality thresholds
 - Drill-through transaction review
 - AP aging analytics
-- Interactive audit visualisations
+- Interactive visualisations
 
-## Technologies
-Power BI • DAX • Power Query • Data Modelling • Audit Analytics
+## Dashboard Preview
 
-![Power BI](https://img.shields.io/badge/PowerBI-Analytics-yellow)
-![DAX](https://img.shields.io/badge/DAX-Data%20Modeling-blue)
-![Audit](https://img.shields.io/badge/Audit-Analytics-green)
-![Finance](https://img.shields.io/badge/Finance-Transformation-orange)
-
-1. Project Overview
-2. Business Problem
-3. Dashboard Features
-4. Data Model
-5. Files Included
-6. Prerequisite Knowledge
+![Dashboard](screenshots/executive_summary.png)
 
 
-# 1. Project Overview
-This project is an end-to-end audit analytics dashboard built in Power BI using Accounts Payable and transaction-level invoice data.
-The dashboard was designed to visualise Purchase to Pay transactions and hence to aid audit procedures commonly performed, including:
-- Cut-off testing
-- Aging analysis
-- Unusual items review
-- High-value transaction analysis
-- Drill-through transaction inspection
+## Business Problem
 
-The objective of the project was to demonstrate how I use Power BI to enhance audit efficiency and financial analysis through interactive data visualisation.
+External audit procedures are often highly manual and spreadsheet-driven. 
+I built this Power BI project to transform traditional audit procedures into interactive analytics workflows.
 
-# 2. Business Problem
-During external audits, auditors often manually inspect transactions around year-end, overdue payables, unusual balances, and high-risk invoices. This process is typically spreadsheet-driven and time-consuming.
-
-This dashboard transforms these audit procedures into an interactive analytics solution that allows users to:
+This dashboard transforms these procedures into an interactive analytics solution that allows users to:
 - dynamically adjust cut-off periods,
 - change materiality thresholds,
 - investigate transactions,
 - and drill into invoice-level details.
-
 By including the interactive elements, I have made it flexible to be catered to each specific client with different materiality levels.
 
+## Data Model
 
-# 3. Dashboard Features
+The dashboard integrates:
+- AP listing
+- Transaction listing
+- Date dimension table
 
+Relationships were established using:
+- Invoice IDs
+- Vendor dimensions
+- Date dimensions
+
+![Data Model](docs/data_model.png)
+
+
+## Dashboard Features
+
+| Feature                | Business Purpose                  |
+| ---------------------- | --------------------------------- |
+| Dynamic Cut-Off Window | Analyse transactions around YE    |
+| Threshold Parameter    | Simulate audit materiality        |
+| Aging Dashboard        | Identify overdue liabilities      |
+| Drill-Through          | Investigate invoice-level details |
+| Debit Balance Review   | Detect unusual AP balances        |
+
+## End-to-end Use Case
 1. Dynamic Cut-Off Testing
 
 Interactive Features:
@@ -73,9 +74,7 @@ Users can:
 - Analyse transaction amounts by vendor via the scatter chart
 - Drill-through to Transaction Details directly
 
-
 [sreenshot]
-
 
 2. Accounts Payable Aging Analysis
 
@@ -86,28 +85,42 @@ The dashboard includes:
 
 Users are able to drill-through to all the accounts payable to any supplier and to the summary of all the invoices in a certain age bucket.
 
-
 [sreenshot]
 
-<p align="center"><samp>
-Below are the step-by-step walkthrough of how I built this Power BI report for AP Cut-off and AP Analysis (Ageing Analysis, Category Analysis) with further drill-through to transaction details possible
-</samp></p>
 
-# 4. Data Model
+## Skills Developed
 
-The project integrates:
-- Accounts Payable listing
-- Transaction listing
-- Date dimension table
+Through this project I developed:
+- Power BI dashboard development
+- DAX measures and calculated columns
+- Dynamic parameter-driven analysis
+- Audit analytics design
+- Data modelling and relationships
+- Drill-through reporting
+- Business-focused data storytelling
 
-Relationships were established using:
-- Invoice IDs
-- Vendor names
-- Date dimensions
+## Why This Project Matters
 
-[sreenshot]
+This project demonstrates how data analytics tools can modernise traditional audit procedures by improving:
+- efficiency,
+- transparency,
+- scalability,
+- and risk identification.
 
-# 5. Files Included
+The project reflects the growing importance of analytics and automation within finance and audit functions.
+
+
+
+1. Project Overview
+2. Business Problem
+3. Dashboard Features
+4. Data Model
+5. Files Included
+6. Prerequisite Knowledge
+
+
+
+## Files Included
 | File                                         | Description              |
 | -------------------------------------------- | ------------------------ |
 | `Audit Analytics Solution for AP Review.pbit`  | Power BI dashboard       |
