@@ -90,9 +90,9 @@ Relationships were established using:
 # 5. Files Included
 | File                                         | Description              |
 | -------------------------------------------- | ------------------------ |
-| Audit Analytics Solution for AP Review.pbit  | Power BI dashboard       |
-| Modified_ dummy_AP_Listing_v2.csv            | Accounts Payable dataset |
-| Modified_ dummy_Transaction_Listing_v2.csv   | Transaction dataset      |
+| `Audit Analytics Solution for AP Review.pbit`  | Power BI dashboard       |
+| `Modified_ dummy_AP_Listing_v2.csv`            | Accounts Payable dataset |
+| `Modified_ dummy_Transaction_Listing_v2.csv`   | Transaction dataset      |
 | `README.md`                                  | Project documentation    |
 
 
