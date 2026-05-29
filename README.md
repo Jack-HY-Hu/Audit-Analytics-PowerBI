@@ -45,17 +45,17 @@ By including the interactive elements, I have made it flexible to be catered to 
 
 1. Dynamic Cut-Off Testing
 
-Users can:
-adjust cut-off window (X days before/after year-end),
-analyse transaction volumes around YE,
-identify high-value transactions near YE.
+Interactive Features:
+- Cut-off days selector
+- Threshold slicer
 
-Features:
-Dynamic cut-off slicer
-Transaction trend analysis
-Drill-down by Year → Month → Day
-High-value transaction highlighting
-Transaction drill-through page
+Users can:
+- Adjust cut-off window (X days before/after year-end) and select the desired threshold,
+- Analyse transaction volumes around YE,
+- Identify high-value transactions above threshold (highlighted automatically) near YE.
+- Analyse transaction trend
+- Drill-through to Transaction Details directly
+
 
 [sreenshot]
 
