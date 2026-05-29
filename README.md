@@ -1,5 +1,5 @@
 <h1 align="center">
-  <b>Audit Analytics Power BI</b>
+  <b>Audit Analytics Solution for AP Review Procedures</b>
 </h1>
 
 <p align="center">
@@ -9,14 +9,10 @@
 1. Project Overview
 2. Business Problem
 3. Dashboard Features
-4. Audit Procedures Covered
-5. Technical Skills Demonstrated
-6. Data Model
-7. Dashboard Screenshots
-8. DAX & Power BI Features
-9. Key Insights
-10. How to Use
-11. Future Improvements
+4. Data Model
+5. Files Included
+6. Prerequisite Knowledge
+
 
 # 1. Project Overview
 This project is an end-to-end audit analytics dashboard built in Power BI using Accounts Payable and transaction-level invoice data.
@@ -77,20 +73,33 @@ Users are able to drill-through to all the accounts payable to any supplier and 
 Below are the step-by-step walkthrough of how I built this Power BI report for AP Cut-off and AP Analysis (Ageing Analysis, Category Analysis) with further drill-through to transaction details possible
 </samp></p>
 
+# 4. Data Model
 
-# 4. Files Included
+The project integrates:
+- Accounts Payable listing
+- Transaction listing
+- Date dimension table
+
+Relationships were established using:
+- Invoice IDs
+- Vendor names
+- Date dimensions
+
+[sreenshot]
+
+# 5. Files Included
 | File                                         | Description              |
 | -------------------------------------------- | ------------------------ |
-| `.pbix`                                      | Power BI dashboard       |
-| `Modified_ dummy_AP_Listing_v2.csv           | Accounts Payable dataset |
-| `Modified_ dummy_Transaction_Listing_v2.csv  | Transaction dataset      |
+| Audit Analytics Solution for AP Review.pbit  | Power BI dashboard       |
+| Modified_ dummy_AP_Listing_v2.csv            | Accounts Payable dataset |
+| Modified_ dummy_Transaction_Listing_v2.csv   | Transaction dataset      |
 | `README.md`                                  | Project documentation    |
 
 
 P.S.
 Example data presented in the project is fictional for illustration
 
-# 5. Pre-requisite Knowledge
+# 6. Prerequisite Knowledge
 
 Power BI
 - Interactive dashboards
