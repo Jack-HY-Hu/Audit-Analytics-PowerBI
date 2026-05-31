@@ -10,11 +10,11 @@
 </div>
 
 ## 📌 Executive Summary
-Finance and external audit procedures are traditionally manual and spreadsheet-heavy workflows. I engineered this Power BI project to bridge **External Audit Methodology** with **Finance Transformation**. 
+Finance and external audit procedures are traditionally manual and spreadsheet-heavy workflows. I developed this Power BI project to bridge **External Audit Methodology** with **Finance Transformation**. 
 
-This interactive analytics solution transforms static Accounts Payable (AP) procedures into a dynamic, parameter-driven workflow—automating cut-off testing, anomaly detection, and aging analysis. It demonstrates how scalable data modelling can reduce manual hours, improve transparency, and be tailored to different materiality thresholds.
+This interactive analytics solution transforms static Accounts Payable (AP) procedures into a dynamic, parameter-driven automating cut-off testing, anomaly detection, and aging analysis. It demonstrates how scalable data modelling can reduce manual hours, improve transparency, and be tailored to different materiality thresholds.
 
-![Dashboard Demo](https://via.placeholder.com/800x400.png?text=Insert+Animated+GIF+of+Dashboard+Here)
+> *![Dashboard Demo](https://github.com/JackWhooo/Audit-Analytics-PowerBI/blob/main/Demonstration/GIF/Cut-off%20Dashboard.gif)*
 
 ---
 
@@ -23,7 +23,7 @@ This interactive analytics solution transforms static Accounts Payable (AP) proc
 ### 1. Dynamic Cut-Off & Anomaly Detection Engine
 * **The Problem:** Auditors pull transaction logs and manually filter dates around year-end to test for cut-off inaccuracies.
 * **The Automated Solution:** A parameter-driven cut-off dashboard. Users adjust a visual slider (e.g., +/- 15 days from Year-End) and input a custom materiality limit. The system instantly isolates and highlights high-value, high-risk transactions near the financial boundary.
-> *[Insert your actual cut-off screenshot here. e.g., `![Cut-Off Analysis](screenshots/cutoff.png)`]*
+> *![Cut-off Report](https://github.com/JackWhooo/Audit-Analytics-PowerBI/blob/main/Demonstration/Screenshots/Cut-off%20Report.png)*
 
 Interactive Features:
 - Cut-off days selector
@@ -37,10 +37,12 @@ Users can:
 - Analyse transaction amounts by vendor via the scatter chart
 - Drill-through to Transaction Details directly
 
+> *![Cut-off Drill Through](https://github.com/JackWhooo/Audit-Analytics-PowerBI/blob/main/Demonstration/GIF/Cut-off%20Drill%20Through.gif)*
+
 ### 2. Interactive Aging & Working Capital Analysis
 * **The Problem:** Static AP aging reports offer no ability to investigate underlying invoices without pulling secondary reports. AP aging is not visualised.
 * **The Automated Solution:** A continuous-monitoring aging matrix with drill-through capabilities. Users can identify an overdue liability bucket at the macro level, and click through to investigate the exact supplier details and individual invoice histories.
-> *[Insert your actual aging screenshot here. e.g., `![Aging Analysis](screenshots/aging.png)`]*
+> *![Ageing Dashboard](https://github.com/JackWhooo/Audit-Analytics-PowerBI/blob/main/Demonstration/Screenshots/Ageing%20Dashboard.png)*
 
 The dashboard includes:
 - aging bucket analysis,
@@ -48,6 +50,7 @@ The dashboard includes:
 - overdue invoice tracking.
 
 Users are able to drill-through to all the accounts payable to any supplier and to the summary of all the invoices in a certain age bucket.
+> *![Ageing Drill Through](https://github.com/JackWhooo/Audit-Analytics-PowerBI/blob/main/Demonstration/GIF/Ageing%20Analysis.gif)*
 
 ---
 ## 📌 Data Model
@@ -88,111 +91,6 @@ P.S.
 Example data presented in the project is fictional for illustration
 
 
-
-
-
-
-## Key Features
-- Dynamic cut-off window
-- Adjustable materiality thresholds
-- Drill-through transaction review
-- AP aging analytics
-- Interactive visualisations
-
-
-## Business Problem
-
-External audit procedures are often highly manual and spreadsheet-driven. 
-I built this Power BI project to transform traditional audit procedures into interactive analytics workflows.
-
-This dashboard transforms these procedures into an interactive analytics solution that allows users to:
-- dynamically adjust cut-off periods,
-- change materiality thresholds,
-- investigate transactions,
-- and drill into invoice-level details.
-By including the interactive elements, I have made it flexible to be catered to each specific client with different materiality levels.
-
-
-
-
-## Dashboard Features
-
-| Feature                | Business Purpose                  |
-| ---------------------- | --------------------------------- |
-| Dynamic Cut-Off Window | Analyse transactions around YE    |
-| Threshold Parameter    | Simulate audit materiality        |
-| Aging Dashboard        | Identify overdue liabilities      |
-| Drill-Through          | Investigate invoice-level details |
-| Debit Balance Review   | Detect unusual AP balances        |
-
-## End-to-end Use Case
-1. Dynamic Cut-Off Testing
-
-
-[sreenshot]
-
-2. Accounts Payable Aging Analysis
-
-
-[sreenshot]
-
-
-## Skills Developed
-
-Through this project I developed:
-- Power BI dashboard development
-- DAX measures and calculated columns
-- Dynamic parameter-driven analysis
-- Audit analytics design
-- Data modelling and relationships
-- Drill-through reporting
-- Business-focused data storytelling
-
-## Why This Project Matters
-
-This project demonstrates how data analytics tools can modernise traditional audit procedures by improving:
-- efficiency,
-- transparency,
-- scalability,
-- and risk identification.
-
-The project reflects the growing importance of analytics and automation within finance and audit functions.
-
-
-
-1. Project Overview
-2. Business Problem
-3. Dashboard Features
-4. Data Model
-5. Files Included
-6. Prerequisite Knowledge
-
-
-
-# 6. Prerequisite Knowledge
-
-Power BI
-- Interactive dashboards
-- Drill-down & drill-through
-- Dynamic slicers
-- Conditional formatting
-- KPI cards
-- DAX
-- Measures
-- Calculated columns
-- Dynamic filtering
-- Visualisation
-
-Data Modelling
-- Star schema
-- Relationship modelling
-- Date table creation
-
-Finance Knowledge
-- Cut-off testing
-- Aging analysis
-- AP review procedures
-- Working capital analysis
 
 
 
