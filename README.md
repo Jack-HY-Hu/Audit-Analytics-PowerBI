@@ -55,15 +55,20 @@ Users are able to drill-through to all the accounts payable to any supplier and 
 ---
 ## 📌 Data Model
 
-The dashboard integrates:
-- AP listing
-- Transaction listing
-- Date dimension table
+The solution uses a star-schema data model.
 
-Relationships were established using:
-- Invoice IDs
-- Vendor dimensions
-- Date dimensions
+Fact Tables:
+- Accounts Payable Listing
+- Transaction Listing
+
+Dimension Tables:
+- Date
+- Vendor
+
+Benefits:
+- Improved query performance
+- Scalable reporting architecture
+- Consistent filtering behaviour
 
 ![Data Model](docs/data_model.png)
 
@@ -72,7 +77,7 @@ Relationships were established using:
 ## 📌 Technical Architecture & Skills Demonstrated
 
 * **Power BI & Data Storytelling:** Designed an intuitive UI with interactive drill-throughs, dynamic slicers, and conditional formatting to instantly surface high-risk transactions.
-* **DAX (Data Analysis Expressions):** Engineered complex, dynamic measures enabling users to manipulate materiality thresholds and rolling cut-off windows in real-time.
+* **DAX (Data Analysis Expressions):** Built parameter-driven measures enabling users to adjust materiality thresholds, modify cut-off testing windows, and dynamically identify high-risk transactions
 * **Data Modelling (Star Schema):** Built a robust, performance-optimised relational model connecting Fact tables (Transactions, AP Listing) with Dimension tables (Vendors, Dates).
 * **Finance Knowledge:** Cut-off, Aging analysis, AP review procedures
 
