@@ -70,7 +70,7 @@ Benefits:
 - Scalable reporting architecture
 - Consistent filtering behaviour
 
-![Data Model](docs/data_model.png)
+![Data Model](https://github.com/Jack-HY-Hu/Audit-Analytics-PowerBI/blob/main/Demonstration/Screenshots/Data%20Model.png)
 
 ---
 
